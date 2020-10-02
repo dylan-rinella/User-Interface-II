@@ -1,1 +1,176 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS reset ends here */
+
+
+
+html{
+  background-color: rgb(253, 239, 239);
+}
+
+h1{
+  font-size:40px;
+  margin-left:20px
+}
+
+h2{
+  display:flex;
+  font-size:23px;
+}
+
+.name-nav{
+  display:flex;
+  border:1px solid black;
+  background:lightgray;
+  margin:50px;
+  /* padding:30px; */
+  flex-direction: column;
+}
+
+.forest{
+  width:100px;
+}
+
+
+
+.top-buttons{
+  height:30px;
+  width:50px;
+  margin-left:20px;
+  border:1px solid black;
+  display:flex;
+  background:white;
+  color:black;
+}
+
+.middle-container{
+  display:flex;
+  margin:50px;
+  justify-content: space-evenly;
+}
+
+
+.text-container{
+  display:flex;
+  border: 1px solid black;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  font-size: 20px;
+  width: 25%;
+  padding-top:60px;
+  background:white;
+  text-align:center
+}
+
+.projects-button{
+  height:30px;
+  width:90px;
+  margin:10px;
+
+}
+
+.second-column{
+  display:flex;
+  width: 1520px;
+  height: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2% 200px 0px;
+}
+.second-column div{
+  text-align:center;
+}
+
+.third-column{
+  display:flex;
+  width: 1520px;
+  height: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2% 200px 0px;
+}
+
+.third-column div{
+  text-align:center;
+}
+
+
+.bottom-container{
+  display:flex;
+  background:lightgray;
+  margin:50px;
+  padding:75px;
+  flex-direction: column;
+}
+
+.bottom-button{
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* height: 14vh; */
+  background-color: lightgray;
+  /* margin-top: 4%; */
+  flex: 0;
+}
+
+
+  
+
+
+
